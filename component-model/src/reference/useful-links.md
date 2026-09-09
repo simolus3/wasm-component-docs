@@ -17,7 +17,7 @@ The Bytecode Alliance provides templates to help you get started with WASI HTTP 
 - [sample-wasi-http-rust][sample-rust] - WASI HTTP Rust template
 
 [wasm-cm-repo]: https://github.com/WebAssembly/component-model
-[wasi-p2]: https://github.com/WebAssembly/WASI/blob/main/docs/Preview2.md
+[wasi-p2]: https://github.com/WebAssembly/WASI/blob/wasi-0.2/docs/Preview2.md
 [ast-explainer]: https://github.com/WebAssembly/component-model/blob/main/design/mvp/Explainer.md
 [canonical-abi]: https://github.com/WebAssembly/component-model/blob/main/design/mvp/CanonicalABI.md
 [wac]: https://github.com/bytecodealliance/wac

@@ -24,7 +24,7 @@ WebAssembly components can be expressed via both a binary and textual format (["
 [wat]: https://webassembly.github.io/spec/core/text/index.html
 [cabi]: https://github.com/WebAssembly/component-model/blob/main/design/mvp/CanonicalABI.md
 [cm-binary-format]: https://github.com/WebAssembly/component-model/blob/main/design/mvp/Binary.md
-[wasi-p1]: https://github.com/WebAssembly/WASI/blob/main/legacy/preview1/witx/wasi_snapshot_preview1.witx
+[wasi-p1]: https://github.com/WebAssembly/WASI/blob/wasi-0.1/preview1/witx/wasi_snapshot_preview1.witx
 [wasm-core-spec]: https://webassembly.github.io/spec/core/
 
 ## Q: How can I tell if a WebAssembly binary is a component or a module?
@@ -81,7 +81,7 @@ expect to access—WASI enables building interfaces on top of a shared standard 
 
 Preview 1 refers to [the first iteration of the Component Model](https://github.com/WebAssembly/WASI/tree/wasi-0.1)
 which was based on WITX and is now deprecated.
-Preview 2 refers to [a newer iteration of the Component Model](https://github.com/WebAssembly/WASI/blob/main/docs/Preview2.md)
+Preview 2 refers to [a newer iteration of the Component Model](https://github.com/WebAssembly/WASI/blob/wasi-0.2/docs/Preview2.md)
 which uses WebAssembly Interface Types (WIT).
 Preview 3 (WASI 0.3, released June 11, 2026) adds native async to the Component Model:
 `async func`, `stream<T>`, and `future<T>` are now Canonical ABI primitives, and the `wasi:io` package is removed.
